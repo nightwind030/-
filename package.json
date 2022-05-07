@@ -1,0 +1,9 @@
+{
+  "name": "discord-clear-command",
+  "author": "night030",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "ytsr": "^3.8.0"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "night030/reaction-role",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/selectmenu/builder.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "Reaction role"
+      }
+    },
+    "functions/events/discord/message/selectmenu/partner.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "Reaction role"
+      }
+    },
+    "functions/events/discord/message/selectmenu/design.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "Reaction role"
+      }
+    },
+    "functions/events/discord/message/selectmenu/attack.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "Reaction role"
+      }
+    },
+    "functions/events/discord/message/create-1.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "PREFIX",
+      "description": "Bot's Prefix"
+    },
+    {
+      "name": "ROLE1",
+      "description": "Role ID (1st one)"
+    },
+    {
+      "name": "ROLE2",
+      "description": "Role ID (2nd one)"
+    },
+    {
+      "name": "ROLE3",
+      "description": "Role ID (3rd one)"
+    },
+    {
+      "name": "ROLE4",
+      "description": "Role ID (4th one)"
+    },
+    {
+      "name": "log_channel_id",
+      "description": "put the channel id of your log channel!"
+    }
+  ]
+}

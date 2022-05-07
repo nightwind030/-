@@ -1,0 +1,16 @@
+{
+  "name": "night030/discord-clear-commandrojw",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "clear"
+      }
+    }
+  }
+}

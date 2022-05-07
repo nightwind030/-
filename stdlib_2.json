@@ -1,0 +1,13 @@
+{
+  "name": "night030/discord-modal-surveys",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/modal/submit/interaction.js": {
+      "name": "discord.modal.submit.interaction",
+      "subtype": {
+        "custom_id": "survey-modal"
+      }
+    }
+  }
+}

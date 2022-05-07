@@ -1,0 +1,8 @@
+{
+  "name": "giveaway",
+  "author": "night030",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

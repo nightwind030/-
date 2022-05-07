@@ -1,0 +1,42 @@
+{
+  "name": "night030/giveaway",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "giveaway"
+      }
+    },
+    "functions/events/discord/message/reaction/add.js": {
+      "name": "discord.message.reaction.add"
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/scheduler/xminutely.js": {
+      "name": "scheduler.xminutely",
+      "subtype": {
+        "frequency": "5 minutes"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "GUILD_ID",
+      "description": "The guild ID where the slash commands will be added to"
+    },
+    {
+      "name": "EMOJI",
+      "description": "The emoji users must click to be added to the giveaway"
+    },
+    {
+      "name": "PREFIX",
+      "description": "Command prefix"
+    }
+  ]
+}

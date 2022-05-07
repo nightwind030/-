@@ -1,0 +1,9 @@
+{
+  "name": "new-project",
+  "author": "night030",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "moment-timezone": "^0.5.34"
+  }
+}

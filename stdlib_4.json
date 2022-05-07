@@ -1,0 +1,94 @@
+{
+  "name": "night030/music",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/voice/state/update.js": {
+      "name": "discord.voice.state.update"
+    },
+    "functions/events/discord/bot/playback/finished.js": {
+      "name": "discord.bot.playback.finished"
+    },
+    "functions/events/discord/message/button/stop.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "stop"
+      }
+    },
+    "functions/events/discord/message/button/play_pause.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "play_pause"
+      }
+    },
+    "functions/events/discord/message/button/skip.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "skip"
+      }
+    },
+    "functions/events/discord/message/button/loop.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "loop"
+      }
+    },
+    "functions/events/discord/message/button/fix.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "fix"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/voice/state/update-1.js": {
+      "name": "discord.voice.state.update"
+    },
+    "functions/events/discord/message/create-1.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "warn"
+      }
+    },
+    "functions/events/discord/message/create-2.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "Key",
+      "description": "Some secret key for database, example: music2121"
+    },
+    {
+      "name": "PLAYLIST_LIMIT",
+      "description": "how many song it can add from playlist (default: 20)"
+    },
+    {
+      "name": "warning",
+      "description": "emoji of warning [⚠]"
+    },
+    {
+      "name": "sending",
+      "description": "emoji for sending messages [✅]"
+    },
+    {
+      "name": "error",
+      "description": "emoji of error [❌]"
+    },
+    {
+      "name": "PREFIX",
+      "description": "Command prefix"
+    },
+    {
+      "name": "ROLE_ID",
+      "description": "The role ID to add when a user is afk"
+    }
+  ]
+}

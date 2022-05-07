@@ -1,0 +1,38 @@
+{
+  "name": "night030/discord-clear-command",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "clear"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/command-1.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "send-message"
+      }
+    },
+    "functions/events/discord/message/create-1.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create-2.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/voice/state/update.js": {
+      "name": "discord.voice.state.update"
+    },
+    "functions/events/discord/voice/state/update-1.js": {
+      "name": "discord.voice.state.update"
+    }
+  },
+  "env": []
+}

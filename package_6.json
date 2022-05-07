@@ -1,0 +1,8 @@
+{
+  "name": "pronoun-roles",
+  "author": "night030",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

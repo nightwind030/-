@@ -1,0 +1,17 @@
+{
+  "name": "night030/my-first-project",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create-1.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/voice/state/update.js": {
+      "name": "discord.voice.state.update"
+    }
+  },
+  "env": []
+}

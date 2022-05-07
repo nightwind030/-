@@ -1,0 +1,122 @@
+{
+  "functions/events/discord/command.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246ODc2MDk2NTk2NTc0NjAxMjI2OlVBRVNGVGVLdDRPa0hnMjltU3czczdBdmM0YXlOVHM0YVJ0UW1hRFhWS2JsWG1xcHhKdG9tYXZWS1dEWUtZano4WWl5SlkwczdCWEN5UEJhSnRDUHIzYUYyb3gxMTN1Tk1QbmZpME1IQ01nSzhWWDFaUmRvWWJJRk02dkRHelY0",
+      "member": {
+        "user": {
+          "username": "Kangabru",
+          "public_flags": 0,
+          "id": "726545791434620991",
+          "discriminator": "0816",
+          "avatar": "ede52befe34914ef120a2bc114017a19"
+        },
+        "roles": [
+          "858392662393225276"
+        ],
+        "premium_since": null,
+        "permissions": "274877906943",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-05-13T19:28:43.944000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS"
+        ]
+      },
+      "id": "876096596574601226",
+      "guild_id": "842483520781025301",
+      "data": {
+        "type": 1,
+        "options": [
+          {
+            "value": 30,
+            "type": 4,
+            "name": "time"
+          },
+          {
+            "value": "+100 AP!",
+            "type": 3,
+            "name": "prize"
+          }
+        ],
+        "name": "giveaway",
+        "id": "876083807210602507"
+      },
+      "channel_id": "842483520781025304",
+      "application_id": "842485548294995968",
+      "received_at": "2021-08-14T13:35:05.767Z"
+    }
+  },
+  "functions/events/discord/message/reaction/add.js": {
+    "event": {
+      "user_id": "726545791434620991",
+      "message_id": "876150365429596160",
+      "member": {
+        "user": {
+          "username": "Kangabru",
+          "id": "726545791434620991",
+          "discriminator": "0816",
+          "avatar": "ede52befe34914ef120a2bc114017a19"
+        },
+        "roles": [
+          "858392662393225276"
+        ],
+        "premium_since": null,
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-05-13T19:28:43.944000+00:00",
+        "is_pending": false,
+        "hoisted_role": null,
+        "deaf": false,
+        "avatar": null
+      },
+      "emoji": {
+        "name": "🎉",
+        "id": null
+      },
+      "channel_id": "842483520781025304",
+      "guild_id": "842483520781025301"
+    }
+  }
+}

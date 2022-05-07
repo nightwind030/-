@@ -1,0 +1,76 @@
+{
+  "name": "night030/pronoun-roles",
+  "timeout": 15000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/button/any.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "anypronouns"
+      }
+    },
+    "functions/events/discord/message/button/ask.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "askpronouns"
+      }
+    },
+    "functions/events/discord/message/button/hehim.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "hehim"
+      }
+    },
+    "functions/events/discord/message/button/multiple.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "multiplepronouns"
+      }
+    },
+    "functions/events/discord/message/button/multiple-hehim.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "hehim_v2"
+      }
+    },
+    "functions/events/discord/message/button/theythem.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "theythem"
+      }
+    },
+    "functions/events/discord/message/button/sheher.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "sheher"
+      }
+    },
+    "functions/events/discord/message/button/multiple-theythem.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "theythem_v2"
+      }
+    },
+    "functions/events/discord/message/button/multiple-sheher.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "sheher_v2"
+      }
+    },
+    "functions/events/discord/message/button/reset-prompt.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "reset_pronoun_prompt"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    }
+  },
+  "env": [
+    {
+      "name": "guildID",
+      "description": "The guild ID you want the command to be created in"
+    }
+  ]
+}
